@@ -1,0 +1,50 @@
+/* Aseguramos que el formulario esté centrado en el contenedor */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    flex-direction: column;
+    align-items: center;
+}
+
+form .form-control {
+    width: 100%;
+}
+
+form button {
+    background-color: #1d294c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #6e2a5b;
+}
+
+/* Iconos de redes sociales */
+.text-center .fab {
+    font-size: 2rem;
+    color: #291d71;
+    transition: color 0.3s ease;
+}
+
+.text-center .fab:hover {
+    color: #ce74b5;
+}
+
+/* Añadir margen entre iconos */
+.text-center a {
+    margin: 0 10px;
+}
+
+body {
+    background-color: rgb(182, 213, 222);
+  }
+  

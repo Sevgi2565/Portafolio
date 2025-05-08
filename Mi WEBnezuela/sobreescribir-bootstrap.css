@@ -1,0 +1,139 @@
+.jumbotron{color: rgb(42, 6, 134);background-color: rgb(182, 213, 222); margin-bottom: 0;}
+.carousel-item img{width: 100%; }
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+    left: 15%;  
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #a67b5d;
+    text-align: left;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: rgb(29, 10, 97);
+  }
+
+.navbar {
+    background-color: #334f68 !important; /* azul oscuro elegante */
+  }
+
+  /* Eliminar márgenes y rellenos por defecto */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Eliminar margen superior en la barra de navegación */
+  nav.navbar {
+    margin-top: 0 !important;
+  }
+
+  .intro-text {
+    font-size: 18px;               /* Ajusta el tamaño del texto */
+    color: black;                   /* Color del texto */
+    line-height: 1.6;              /* Espaciado entre líneas para mejor legibilidad */
+    margin: 20px 0;                /* Márgenes arriba y abajo para separar del resto del contenido */
+    text-align: justify;           /* Justifica el texto para darle un acabado más ordenado */
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+    max-width: 800px;              /* Limita el ancho del texto */
+    margin-left: auto;             /* Centra el texto */
+    margin-right: auto;
+}
+
+/* Animación para los bloques de texto */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.col-lg-4 {
+  animation: fadeInUp 1s ease-in-out both;
+}
+
+/* Animación para la imagen del carrusel */
+.carousel-item img {
+  transition: transform 0.5s ease;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Entrada suave para el título */
+.jumbotron h1 {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 1s ease forwards;
+}
+
+@keyframes fadeInDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animación al hacer clic en los elementos del menú */
+.navbar a {
+  position: relative;
+  transition: all 0.3s ease; /* Transición suave para todos los cambios */
+}
+
+.navbar a:active {
+  color: #ea3515; /* Cambia el color al hacer clic (puedes usar cualquier color) */
+  transform: scale(1.1); /* Aumenta el tamaño ligeramente al hacer clic */
+}
+
+/* Animación para los bloques de texto */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplicamos la animación a los bloques de texto */
+.col-lg-4 {
+  opacity: 0; /* Los bloques comienzan invisibles */
+  animation: fadeInUp 1s ease forwards; /* Animación cuando se haga visible */
+  animation-delay: 0.3s; /* Un pequeño retraso para la segunda y tercera columna */
+}
+
+.col-lg-4:nth-child(2) {
+  animation-delay: 0.6s; /* Retraso para el segundo bloque */
+}
+
+.col-lg-4:nth-child(3) {
+  animation-delay: 0.9s; /* Retraso para el tercer bloque */
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Opcional: Establece la altura del contenedor al 100% de la ventana */
+}
+
+iframe {
+  max-width: 100%; /* Asegura que el video no se desborde en pantallas pequeñas */
+  height: auto; /* Mantiene las proporciones del video */
+  margin-top: 0px; /* Reduce el espacio entre el párrafo y el video */
+  margin-bottom: 10px; /* Espacio entre el video y el siguiente contenido */
+
+}
+  
+  
