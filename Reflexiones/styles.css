@@ -1,0 +1,217 @@
+.imagen-header {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eacfb8;
+    color: #444;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #f7d9c4;
+    padding: 40px 20px;
+    border-bottom: 2px solid #e0b89b;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ae5489;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    font-size: 1.2em;
+    padding: 10px 20px; /* Espaciado alrededor del texto */
+    background-color: #bcb999; /* Fondo marrón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar color */
+}
+
+nav ul li a:hover {
+    background-color: #3e2723; /* Fondo más oscuro cuando se pasa el ratón */
+}
+
+/* Sección principal */
+.bienvenida {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    color: white;
+}
+
+.bienvenida h2 {
+    font-size: 2em;
+}
+
+/* Sección de contenido */
+.contenido {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: #ffebd2;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta h3 {
+    color: #914e75;
+}
+
+.tarjeta-azul {
+    background-color: #dbe7f0; /* Azul claro */
+    border-left: 5px solid #74c0fc;
+}
+
+.tarjeta-verde {
+    background-color: #e0f7e3; /* Verde claro */
+    border-left: 5px solid #69db7c;
+}
+
+.tarjeta-dorada {
+    background-color: #fff3bf; /* Dorado claro */
+    border-left: 5px solid #ffcc00;
+}
+
+
+.submit {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    color: white;
+    font-size: 1.2em;
+    padding: 12px 24px; /* Ajusta el tamaño de los bordes internos */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 20px;
+    display: inline-block; /* Hace que el botón se ajuste a su contenido */
+    text-transform: uppercase;
+    font-weight: bold;
+    width: auto; /* Asegura que no se estire */
+}
+
+.submit {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Efecto de sombra al pasar el ratón */
+}
+
+/* Pie de página */
+
+#contact {
+    padding: 40px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.boton-enviar {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    color: white;
+    font-size: 1.2em;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: auto;
+}
+
+.boton-enviar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+footer {
+    background-color: #f7d9c4;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 0px 0;
+    background-color: #333; /* Fondo oscuro */
+}
+
+.social-icons a {
+    color: #e54e4e;
+    font-size: 32px; /* Tamaño de los iconos */
+    margin: 0 15px; /* Espaciado entre los iconos */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+.social-icons a:hover {
+    color: #2118cc; /* Cambiar color cuando se pasa el ratón */
+}
+
+footer {
+    background-color: #e8edd0; /* Gris medio */
+    color: rgb(158, 156, 156); /* Asegúrate de que el texto sea visible */
+    padding: 200px;
+    text-align: center;
+}
+
+

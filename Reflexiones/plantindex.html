@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexión Universal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sobreescribir-bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<!-- jQuery libreria -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+<!-- Popper Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- JavaScript de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <!-- SECCIÓN NO EDITABLE: Header -->
+<header class="no-editable">
+    <!--contenido fijo-->
+    <nav>
+        <ul>
+            <li><a href="plantindex.html">Home</a></li>
+            <li><a href="reflexiones.html">Reflexiones</a></li>
+            <li><a href="#">Sobre mi</a></li>
+            <li><a href="#">Contactame</a></li>
+        </ul>
+    </nav>
+
+        <h1>Bienvenidos a la Esencia</h1>
+        <p>Explora la armonia de tu ser</p>
+        <img src="img/Tu universo.webp" alt="todos tus lados brillan" class="imagen-header">
+</header>
+<!-- SECCIÓN EDITABLE: Contenido principal -->
+    <main class="editable">
+<!-- Contenido modificable -->        
+        <h2>todo lo que puedes hacer...</h2>
+        <p>Puede que te hayas encontrado con algún tropiezo frente a alguna situación y pienses que no sabes resolverlo. 
+            En la mayoría de los casos, los que dependen de ti para contigo mismo, y más cuando la accion recae en otro ambito o persona, 
+            si que puedes tener un control!
+            Animate a conocerte de nuevo,dia a dia, a probar, a enriquecer tu conciencia, ánimo y espíritu.</p>
+    </main>
+     
+    <section class="bienvenida">
+        <h2>Tu universo</h2>
+        <p>Encuentra paz y equilibrio en cada pensamiento, sentimiento e ideas</p>
+    </section>
+    
+    <section class="contenido">
+        <div class="tarjeta">
+            <h3>Todo lo que necesitas está dentro de Tí</h3>
+            <p>Cuantas veces te habrás preguntado por lo que debes aprender, conocer o saber para que te resulten 
+                las cosas lo mejor posible?. 
+                Para obtener esa respuesta solo necesitas conocerte. Escúchate... click aquí</p>
+                
+        </div>
+        <div class="tarjeta">
+            <h3>Léete</h3>
+            <p>Si necesitas replantearte alguna situación que te ayude, que te sirva para liberar o para saber de ti, solo 
+               debes escribir ya sea a alguien mas o a ti mismo podras experimentar sentimientos, entenderás lo que sientes,
+               si deseas mejorarlo, cambiarlo o simplemente olvidarlo, solo es evaluarte según la circunstancia... click aquí</p>
+        </div>
+        <div class="tarjeta">
+            <h3>Creando Ambiente</h3> 
+            <p>para crear un ambiente agradable y sumergirte en tí misma, te sugiero que te rodees de todo lo confortable que te pueda resultar, 
+                mantas, velas aromatizadas, luz artificial o natural,al aire libre o en alguna habitación, musica, 
+                sonido en particular, algún olor a perfume...eres dueño de tus ideas... click aquí</p>
+        </div>
+
+        <section class="contenido">
+            <div class="tarjeta tarjeta-azul">
+                <h3>Sentido Vital</h3>
+                <p>Expande la mente más allá de lo visible.</p>
+            </div>
+            <div class="tarjeta tarjeta-verde">
+                <h3>Flow</h3>
+                <p>La clave del bienestar.</p>
+            </div>
+            <div class="tarjeta tarjeta-dorada">
+                <h3>Resiliencia</h3>
+                <p>luces que guían tu camino.</p>
+            </div>
+        
+        <button class="submit">Comencemos a trabajar</button>
+
+    </section>
+
+    <!-- SECCIÓN NO EDITABLE: Footer -->
+    <footer class="no-editable">
+        <!-- Contenido fijo -->
+        <section id="contact">
+            <h2>Contáctame</h2>
+            <div class="form-container">
+            <form action="enviar_formulario.php" method="POST">
+                <div class="form-group">
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" name="name" required>
+            </div>
+        
+            <div class="form-group">
+                  <label for="email">Correo electrónico:</label>
+                  <input type="email" id="email" name="email" required>
+            </div>
+        
+            <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+        
+                <input type="submit" class="boton-enviar" value="Enviar">
+              
+            </form>
+        </section>
+
+        <br>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+
+        <p>&copy; 2025 Conexión Interior - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
